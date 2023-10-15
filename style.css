@@ -61,14 +61,14 @@ a {
 }
 
 img {
-    position:inherit;
+    position:absolute;
     height: 100%;
     width: 100%;
 }
 
 .left-image {   
     color: white;
-    height: 350px;
+    height: 100%;
     width: 45%;
     border: 6px solid white;
     border-radius: 10px;
@@ -80,7 +80,7 @@ img {
 
 .right-image {
     color: white;
-    height: 350px;
+    height: 100%;
     width: 45%;
     border: 6px solid white;
     border-radius: 10px;
@@ -91,7 +91,7 @@ img {
 }
 
 .CardContainer {
-    height: 400px;
+    height: 50%;
     width: 100%;
     display: grid;
     align-items: center;
@@ -230,11 +230,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 500px;
 }
 
 #video {
     color: white;
-    height: 350px;
+    height: 75%;
     width: 45%;
     border: 6px solid white;
     border-radius: 10px;
