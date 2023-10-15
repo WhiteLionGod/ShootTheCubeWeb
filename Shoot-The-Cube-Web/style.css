@@ -1,0 +1,242 @@
+body {
+    /* Change to Background Image */
+    background-color:#D9D9D9;
+    color: white;
+}
+
+a {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#div-nav {  
+    text-align: center;
+    cursor: pointer;
+    color: #9D9D9D;
+    border: 6px  solid white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#div-navbottom {  
+    text-align: center;
+    cursor: pointer;
+    color: #9D9D9D;
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 20px;
+    background-color: white;
+}
+
+#links {
+    display:none;
+}
+
+.left-textcard {
+    color: white;
+    align-items: left;
+    text-align: left;
+    padding-left: 5px;
+    border: 6px  solid white;
+    border-radius: 10px;
+    width: 45%;
+    position:absolute;
+    margin-left:10px;
+}
+
+.right-textcard {
+    color: white;
+    text-align: right;
+    padding-right: 5px;
+    border: 6px  solid white;
+    border-radius: 10px;
+    width: 45%;
+    margin-left: auto; 
+    margin-right: 0;
+    position: relative;
+    margin-right:10px;
+}
+
+img {
+    position:inherit;
+    height: 100%;
+    width: 100%;
+}
+
+.left-image {   
+    color: white;
+    height: 350px;
+    width: 45%;
+    border: 6px solid white;
+    border-radius: 10px;
+    display:-webkit-box;
+    margin-right: auto;
+    position: absolute;
+    background-color: white;
+}
+
+.right-image {
+    color: white;
+    height: 350px;
+    width: 45%;
+    border: 6px solid white;
+    border-radius: 10px;
+    position: relative;
+    display:-webkit-box;
+    margin-left: auto;
+    background-color: white;
+}
+
+.CardContainer {
+    height: 400px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    position:relative;
+}
+
+.Header {
+    text-align: center;
+}
+
+#ovalrightcontainer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.ovalboxleft {
+    width: 25%;
+    height: 350px;
+    background-color: black;
+    position: absolute;
+}
+
+.ovalboxright {
+    width: 25%;
+    height: 350px;
+    background-color: black;
+    position: absolute;
+}
+
+.ovalleft {
+    width: 50%;
+    height: 350px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+}
+
+.ovalright {
+    width: 50%;
+    height: 350px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footercontainer {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border: 6px solid white;
+    border-radius: 10px;
+    position:fixed;
+    bottom: 0;
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.spacer {
+    height: 75px;
+    width: 99%;
+}
+
+#header {
+    text-align: center;
+    color: black;
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 20px;
+    background-color: white; 
+    margin-bottom: 20px;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.lines {
+    display: flex;
+    justify-content: center;
+}
+
+#line1 {
+    height: 5px;
+    width: 55%;
+    background-color: black;
+}
+
+#line2 {
+    height: 25px;
+    width: 5px;
+    background-color: black;
+}
+
+#line3 {
+    height: 25px;
+    width: 5px;
+    background-color: black;
+}
+
+#line4 {
+    height: 40px;
+    width: 5px;
+    background-color: black;
+    align-self: center;
+}
+
+.line {
+    height: 5px;
+    width: 100%;
+    background-color: black;
+}
+
+.captionContainer {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: black;
+    margin: 10px 0px 10px 0px;
+}
+
+#videoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video {
+    color: white;
+    height: 350px;
+    width: 45%;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-color: white;
+}
