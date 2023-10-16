@@ -2,11 +2,12 @@ body {
     /* Change to Background Image */
     background-color:#D9D9D9;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
     color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 10px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -15,7 +16,7 @@ a {
 #div-nav {  
     text-align: center;
     cursor: pointer;
-    color: #9D9D9D;
+    color: black;
     border: 6px  solid white;
     border-radius: 10px;
     background-color: white;
@@ -27,7 +28,7 @@ a {
     color: #9D9D9D;
     border: 5px solid white;
     border-radius: 10px;
-    height: 20px;
+    height: 32px;
     background-color: white;
 }
 
@@ -45,6 +46,7 @@ a {
     width: 45%;
     position:absolute;
     margin-left:10px;
+    padding: 10px 10px 10px 10px;
 }
 
 .right-textcard {
@@ -58,6 +60,7 @@ a {
     margin-right: 0;
     position: relative;
     margin-right:10px;
+    padding: 10px 10px 10px 10px;
 }
 
 img {
@@ -84,10 +87,11 @@ img {
     width: 45%;
     border: 6px solid white;
     border-radius: 10px;
-    position: relative;
-    display:-webkit-box;
-    margin-left: auto;
+    position: absolute;
+    display:flex;
+    justify-self:right;
     background-color: white;
+    margin-right: 10px;
 }
 
 .CardContainer {
@@ -96,6 +100,9 @@ img {
     display: grid;
     align-items: center;
     position:relative;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .Header {
@@ -108,23 +115,31 @@ img {
     align-items: center;
 }
 
+.ovalleftcontainer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+}
+
 .ovalboxleft {
     width: 25%;
-    height: 350px;
+    height: 325px;
     background-color: black;
     position: absolute;
+    display: flex;
 }
 
 .ovalboxright {
     width: 25%;
-    height: 350px;
+    height: 325px;
     background-color: black;
     position: absolute;
 }
 
 .ovalleft {
     width: 50%;
-    height: 350px;
+    height: 325px;
     border-radius: 100%;
     background-color: black;
     position: absolute;
@@ -132,7 +147,7 @@ img {
 
 .ovalright {
     width: 50%;
-    height: 350px;
+    height: 325px;
     border-radius: 100%;
     background-color: black;
     position: absolute;
@@ -145,7 +160,7 @@ footer {
 }
 
 #footercontainer {
-    height: 50px;
+    height: 40px;
     width: 100%;
     background-color: white;
     border: 6px solid white;
@@ -158,7 +173,7 @@ footer {
 }
 
 .spacer {
-    height: 75px;
+    height: 55px;
     width: 99%;
 }
 
@@ -167,14 +182,14 @@ footer {
     color: black;
     border: 5px solid white;
     border-radius: 10px;
-    height: 20px;
+    height: 35px;
     background-color: white; 
-    margin-bottom: 20px;
     width: 98%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
+    margin-left: 15px;
 }
 
 .lines {
@@ -223,14 +238,13 @@ footer {
     border: 1px solid white;
     border-radius: 10px;
     color: black;
-    margin: 10px 0px 10px 0px;
 }
 
 #videoContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 400px;
 }
 
 #video {
